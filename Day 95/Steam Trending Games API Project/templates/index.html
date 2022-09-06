@@ -1,0 +1,26 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Steam Trending API{% endblock %}
+
+{%- block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">Steam Trending Games API</h1>
+        <p class="lead">An API which returns the top n Steam trending games, or a random trending game!</p>
+        <p class="lead">To use the api without going through this use the /get_games/n endpoint where n is the number of games you want to return.</p>
+        <hr class="my-4">
+        <form method="POST" action="{{ url_for('return_n_games') }}">
+            <label for="n">Enter the number of games you would like to fetch with the API: </label>
+            <input type="number" id="n" name="n" min="1" max="50" />
+        </form>
+        <br>
+        <a class="btn btn-warning btn-lg" href="{{ url_for('return_random_game') }}" role="button">Or Fetch a Random Trending Game!</a>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,1 @@
+Given several debugging exercises as the project to practice debugging.

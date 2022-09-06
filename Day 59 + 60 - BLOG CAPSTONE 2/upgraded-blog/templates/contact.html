@@ -1,0 +1,55 @@
+{% include 'header.html' %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{ static }}assets/img/contact-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            {% if messageSent == False %}
+                            <h1>Contact Me</h1>
+                            <span class="subheading">Have questions? I have answers.</span>
+                            {% else %}
+                            <h1>Successfully sent message</h1>
+                            <span class="subheading">We will view it shortly!</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                        <div class="my-5">
+                            <form name="sentMessage" id="contactForm" action="{{ url_for('contact') }}" method="POST" novalidate>
+                                <div class="form-floating">
+                                    <input class="form-control" name="name" type="text" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." />
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." />
+                                    <label for="email">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                                <div class="form-floating">
+                                    <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                                <br />
+                                <div id="success"></div>
+                                <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+{% include 'footer.html' %}

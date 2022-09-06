@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* title */
+
+#title {
+   background-color: #ff4c68;
+   color: #fff;
+   text-align: left;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Dog Phone Image */
+
+.title-image{
+    width: 23rem;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+.title-image-container{
+    position: relative;
+}
+
+@media (max-width: 1282px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-description {
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.logos {
+    width: 15%;
+    margin: 3% 3% 6%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 9% 18%;
+    color: #fff;
+}
+
+#call-to-action-header {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    line-height: 1.5;
+}
+
+.footer-button {
+    padding: 1% 2%;
+    margin: 0 1%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 0;
+}
+
+#copyright {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.footer-icon {
+    margin: 2% 1%;
+}

@@ -1,0 +1,7 @@
+{'email': 'admin@email.com', 'password': '12345678', 'time': '2022-05-25 03:26:11.141178', 'success': 'success'}
+{'email': 'johnny@hotmail.com', 'password': 'ThisShouldBeDenied', 'time': '2022-05-25 03:26:53.512315', 'success': 'denied'}
+{'email': 'johnny@hotmail.com', 'password': 'ThisShouldBeDenied', 'time': '2022-05-25 03:27:30.152687', 'success': 'denied'}
+{'email': 'admin@email.com', 'password': '12345678', 'time': '2022-05-25 03:27:40.840107', 'success': 'success'}
+{'email': 'admin@email.com', 'password': '12345678', 'time': '2022-05-25 03:27:46.652486', 'success': 'success'}
+{'email': 'johnny@hotmail.com', 'password': 'Testtest', 'time': '2022-05-25 05:07:24.073628', 'success': 'denied'}
+{'email': 'admin@email.com', 'password': '12345678', 'time': '2022-05-25 05:07:33.439919', 'success': 'success'}

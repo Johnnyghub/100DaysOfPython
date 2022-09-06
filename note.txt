@@ -1,0 +1,2 @@
+In days with many projects, the main project done at the end of the day is labelled with _PROJ at the end of the
+filename. eg: treasure_island_PROJ.py.

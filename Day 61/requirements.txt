@@ -1,0 +1,5 @@
+Flask==1.0.2
+flask
+Flask-WTF
+email_validator
+flask-bootstrap

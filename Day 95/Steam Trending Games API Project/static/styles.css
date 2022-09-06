@@ -1,0 +1,34 @@
+body {
+background-color: #333;
+color: white;
+}
+
+a {
+    color: #ffc107;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input[type=number] {
+    color: black;
+    font-size: 1.5rem;
+    padding: 5px 0px 5px 10px;
+    border-radius: 20%;
+    width: 4%;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: #333;
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}

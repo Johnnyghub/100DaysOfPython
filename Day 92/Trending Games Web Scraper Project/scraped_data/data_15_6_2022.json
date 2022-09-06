@@ -1,0 +1,142 @@
+{
+    "1": {
+        "game_name": "The Cycle: Frontier",
+        "current_price": "$0.00",
+        "steam_link": "https://store.steampowered.com/app/868270/?curator_clanid=32686107",
+        "review_velocity": 1276,
+        "rating": "58%"
+    },
+    "2": {
+        "game_name": "V Rising",
+        "current_price": "$19.99",
+        "steam_link": "https://store.steampowered.com/app/1604030/?curator_clanid=32686107",
+        "review_velocity": 1220,
+        "rating": "89%"
+    },
+    "3": {
+        "game_name": "Vampire: The Masquerade - Bloodhunt",
+        "current_price": "$0.00",
+        "steam_link": "https://store.steampowered.com/app/760160/?curator_clanid=32686107",
+        "review_velocity": 826,
+        "rating": "71%"
+    },
+    "4": {
+        "game_name": "Chivalry 2",
+        "current_price": "$23.99",
+        "steam_link": "https://store.steampowered.com/app/1824220/?curator_clanid=32686107",
+        "review_velocity": 774,
+        "rating": "84%"
+    },
+    "5": {
+        "game_name": "Outward Definitive Edition",
+        "current_price": "$39.99",
+        "steam_link": "https://store.steampowered.com/app/794260/?curator_clanid=32686107",
+        "review_velocity": 710,
+        "rating": "74%"
+    },
+    "6": {
+        "game_name": "Hardspace: Shipbreaker",
+        "current_price": "$34.99",
+        "steam_link": "https://store.steampowered.com/app/1161580/?curator_clanid=32686107",
+        "review_velocity": 604,
+        "rating": "89%"
+    },
+    "7": {
+        "game_name": "20 Minutes Till Dawn",
+        "current_price": "$2.99",
+        "steam_link": "https://store.steampowered.com/app/1966900/?curator_clanid=32686107",
+        "review_velocity": 563,
+        "rating": "93%"
+    },
+    "8": {
+        "game_name": "STRIDE",
+        "current_price": "$13.99",
+        "steam_link": "https://store.steampowered.com/app/1292040/?curator_clanid=32686107",
+        "review_velocity": 459,
+        "rating": "86%"
+    },
+    "9": {
+        "game_name": "The Quarry",
+        "current_price": "$59.99",
+        "steam_link": "https://store.steampowered.com/app/1577120/?curator_clanid=32686107",
+        "review_velocity": 354,
+        "rating": "73%"
+    },
+    "10": {
+        "game_name": "Dorfromantik",
+        "current_price": "$13.99",
+        "steam_link": "https://store.steampowered.com/app/1455840/?curator_clanid=32686107",
+        "review_velocity": 336,
+        "rating": "97%"
+    },
+    "11": {
+        "game_name": "Big Bia",
+        "current_price": "$11.99",
+        "steam_link": "https://store.steampowered.com/app/585020/?curator_clanid=32686107",
+        "review_velocity": 290,
+        "rating": "85%"
+    },
+    "12": {
+        "game_name": "The Stanley Parable: Ultra Deluxe",
+        "current_price": "$24.99",
+        "steam_link": "https://store.steampowered.com/app/1703340/?curator_clanid=32686107",
+        "review_velocity": 263,
+        "rating": "94%"
+    },
+    "13": {
+        "game_name": "My Time at Sandrock",
+        "current_price": "$24.99",
+        "steam_link": "https://store.steampowered.com/app/1084600/?curator_clanid=32686107",
+        "review_velocity": 248,
+        "rating": "81%"
+    },
+    "14": {
+        "game_name": "Arma Reforger",
+        "current_price": "$29.99",
+        "steam_link": "https://store.steampowered.com/app/1874880/?curator_clanid=32686107",
+        "review_velocity": 207,
+        "rating": "59%"
+    },
+    "15": {
+        "game_name": "Sniper Elite 5",
+        "current_price": "$49.99",
+        "steam_link": "https://store.steampowered.com/app/1029690/?curator_clanid=32686107",
+        "review_velocity": 204,
+        "rating": "73%"
+    },
+    "16": {
+        "game_name": "POSTAL: Brain Damaged",
+        "current_price": "$16.99",
+        "steam_link": "https://store.steampowered.com/app/1359980/?curator_clanid=32686107",
+        "review_velocity": 202,
+        "rating": "96%"
+    },
+    "17": {
+        "game_name": "Retrowave",
+        "current_price": "$2.99",
+        "steam_link": "https://store.steampowered.com/app/1239690/?curator_clanid=32686107",
+        "review_velocity": 189,
+        "rating": "95%"
+    },
+    "18": {
+        "game_name": "Rogue Legacy 2",
+        "current_price": "$24.99",
+        "steam_link": "https://store.steampowered.com/app/1253920/?curator_clanid=32686107",
+        "review_velocity": 186,
+        "rating": "89%"
+    },
+    "19": {
+        "game_name": "Hatsune Miku: Project DIVA Mega Mix+",
+        "current_price": "$39.39",
+        "steam_link": "https://store.steampowered.com/app/1761390/?curator_clanid=32686107",
+        "review_velocity": 169,
+        "rating": "88%"
+    },
+    "20": {
+        "game_name": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+        "current_price": "$29.99",
+        "steam_link": "https://store.steampowered.com/app/1922560/?curator_clanid=32686107",
+        "review_velocity": 135,
+        "rating": "89%"
+    }
+}
